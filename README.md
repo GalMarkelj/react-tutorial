@@ -1,6 +1,6 @@
 # Beginner React tutorial
 
-By following this tutorial step by step to the end you will give me a chance to teach you basics of react. You'll be able to use this on every react project that you will be working on. To follow this course you need zero knowladge about react.
+By following this tutorial step by step to the end you will give me a chance to teach you basics of react. You'll be able to use this on every react project that you will be working on. To follow this course you need zero knowledge about react.
 
 
 ## Why follow my tutorial?
@@ -16,8 +16,17 @@ There is a lot of courses, content and documentation from great developers, but,
 * usage of react query,
 * usage of react router
 
-*IMPORTANT*: I will not provide all the content in this tutorial. I will only guide you trough the documentation, courses by giving you tasks and you will need to read that by yourself to really get everything under your skin.
+**IMPORTANT**: I will not provide all the content in this tutorial. I will only guide you trough the documentation, courses by giving you tasks and you will need to read that by yourself to really get everything under your skin.
 
+## Helpers
+- [MDN](https://developer.mozilla.org/en-US/)
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/learn)
+- [React API reference](https://react.dev/reference/react)
+- [React router](https://reactrouter.com/en/main)
+- [React query](https://tanstack.com/query/v3/docs/react/overview)
+- [Sass](https://sass-lang.com/)
+- [StandardJs](https://standardjs.com/)
 
 ## Get started
 
@@ -25,8 +34,17 @@ To start this tutorial you will need to have a code editor and preferably your o
 
 *So if you are ready, let's hit the road!*
 
-1. First you need to be comfortable working with arrays and objects before working with React. To achieve that, first, I want you to watch [Jack Herringtons series "Arrays made simple"](https://www.youtube.com/watch?v=NaJI7RkSPx8&list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh&index=1), episodes from 1 to 6. Second, you will use what you learned from the series and do an exercise made from [Andrej Cremmoznik](https://github.com/andrejcremoznik). Open the file [products-array](https://github.com/GalMarkelj/react-tutorial/blob/main/products-array.js) and do the tasks with the dummy data. For help, I'm giving you a solution to all the tasks in file [products-array-solved](https://github.com/GalMarkelj/react-tutorial/blob/main/products-array-solved.js), but first, try to do it by yourself. To get the answers logged in the terminal, run `node products-array-solved.js` in the root directory.
+1. **Arrays & Objects** First you need to be comfortable working with arrays and objects before working with React. To achieve that, first, I want you to watch [Jack Herringtons series "Arrays made simple"](https://www.youtube.com/watch?v=NaJI7RkSPx8&list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh&index=1), episodes from 1 to 6. Second, you will use what you learned from the series and do an exercise made from [Andrej Cremmoznik](https://github.com/andrejcremoznik). Open the file [products-array](https://github.com/GalMarkelj/react-tutorial/blob/main/products-array.js) and do the tasks with the dummy data. For help, I'm giving you a solution to all the tasks in file [products-array-solved](https://github.com/GalMarkelj/react-tutorial/blob/main/products-array-solved.js), but first, try to do it by yourself. To get the answers logged in the terminal, run `node products-array-solved.js` in the root directory.
 
-2. Currently the best bundler for React in my opinion is [Vite](https://vitejs.dev/). I want you to read a little bit about what Vite is, what are some of his features and then with the documentation set up a boilerplate for a React(Javascript) project.
+2. **Project setup**
+ - Currently the best bundler for React in my opinion is [Vite](https://vitejs.dev/). I want you to read a little bit about what Vite is, what are some of his features and then with the documentation set up a boilerplate for a React(**Javascript + SWC**) project.
+ - After you setup the project with Vite I suggest you do the following:
+        - in the root directory remove .eslintrc.cjs<br>
+        - navigate to the src directory and delete everything accept `App.jsx` and `main.jsx`<br>
+        - for styles we will use `sass`(scss), this is a css extension. I suggest you look little bit into the documentation. Install `sass` **as a development dependency**. After that in `src` directory create folder `styles` with file `app.scss` in it.<br>
+        - edit `main.jsx` and set the correct path to the styles<br>
+        - edit `App.jsx` and remove all imports and JSX code
 
-3. To style your pages that you are going to be building, [Tailwind](https://tailwindcss.com/) is going to be your friend. Check the docs and install it into the project.
+    Also, I highly suggest you use [StandardJs](https://standardjs.com/) to save some time, have clean code and most importantly to write common JavaScript syntax.<br>
+    To do that install `standard` **as a development dependency** and that is it.
+
