@@ -21,5 +21,6 @@ Navigate to [React router](https://reactrouter.com/en/main) and:
 - **[Single product page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/products/products-item.jpg)** - `/products/ID_OF_THE_PRODUCT`
 
 ### Instructions
+- When you will write your custom css, don't forget to read how [Scss](https://sass-lang.com/guide/) works, quickly go trough the given basics. If you will have multiple files, use [@use](https://sass-lang.com/documentation/at-rules/use/) instead of `@import` to include those files into the main (app.scss) file.
 - In [user dropdown](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-3/designs/dashboard/user-menu-dropdown.jpg) I want you to add a button that will sign him out, later on the next exercises, for now only add an alert that he was signed out. Also, when the dropdown is open, if I click anywhere on the site accept the dropdown itself, I want it to close. If you click on the item inside of the dropdown, make an action of that item and after that close it.
 - Implement the style from the [picture](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-3/designs/dashboard/navigation-hover&action-item.jpg) to navigation items that are active(page to which item redirects is open) or when we hover over it.
