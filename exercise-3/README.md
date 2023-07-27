@@ -8,7 +8,18 @@
       - edit `App.jsx` and remove all imports and JSX code
 
   Also, I highly suggest you use [StandardJs](https://standardjs.com/) to save some time, have clean code and most importantly to write common JavaScript syntax.<br>
-  To do that install `standard` **as a development dependency** and that is it.
+  To do that install `standard` **as a development dependency** and that is it. Standard will be giving you a hard time if you will be using incorrect spaces, and more. Use this settings in your `editor config file`:
+  ```
+  root = true
+
+  [*]
+  indent_style = space
+  indent_size = 2
+  end_of_line = lf
+  charset = utf-8
+  trim_trailing_whitespace = true
+  insert_final_newline = true
+  ```
 ### Tailwind
 For styling our pages we will be using [Tailwind](https://tailwindcss.com/). Install [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite).
 ### React Material UI
