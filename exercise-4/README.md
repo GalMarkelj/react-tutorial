@@ -17,8 +17,8 @@ Navigate to [React router](https://reactrouter.com/en/main) and:
 - **[Register page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/onboarding/register.jpg)** - `/register`
 - **[Login page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/onboarding/login.jpg)** - `/login`
 - **[Home(main) page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/dashboard/home.jpg)** - `/`
-- **[Products page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/dashboard/home.jpg)** - `/products`
-- **[Single product page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/dashboard/home.jpg)** - `/products/ID_OF_THE_PRODUCT`
+- **[Products page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/products/products-list.jpg)** - `/products`
+- **[Single product page](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4/designs/products/products-item.jpg)** - `/products/ID_OF_THE_PRODUCT`
 
 ### Instructions
 - In [user dropdown](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-3/designs/dashboard/user-menu-dropdown.jpg) I want you to add a button that will later on sign him out, for now only add an alert that he was signed out. Also, when the dropdown is open, if I click anywhere on the site accept the dropdown itself, I want it to close. If you click on the item inside of the dropdown, make an action of that item and after that close it.
