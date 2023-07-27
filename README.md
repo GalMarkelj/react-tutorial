@@ -34,17 +34,7 @@ To start this tutorial you will need to have a code editor and preferably your o
 
 *So if you are ready, let's hit the road!*
 
-1. **Arrays & Objects** First you need to be comfortable working with arrays and objects before working with React. To achieve that, first, I want you to watch [Jack Herringtons series "Arrays made simple"](https://www.youtube.com/watch?v=NaJI7RkSPx8&list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh&index=1), episodes from 1 to 6. Second, you will use what you learned from the series and do an exercise made from [Andrej Cremmoznik](https://github.com/andrejcremoznik). Open the file [products-array](https://github.com/GalMarkelj/react-tutorial/blob/main/products-array.js) and do the tasks with the dummy data. For help, I'm giving you a solution to all the tasks in file [products-array-solved](https://github.com/GalMarkelj/react-tutorial/blob/main/products-array-solved.js), but first, try to do it by yourself. To get the answers logged in the terminal, run `node products-array-solved.js` in the root directory.
-
-2. **Project setup**
- - Currently the best bundler for React in my opinion is [Vite](https://vitejs.dev/). I want you to read a little bit about what Vite is, what are some of his features and then with the documentation set up a boilerplate for a React(**Javascript + SWC**) project.
- - After you setup the project with Vite I suggest you do the following:
-        - in the root directory remove .eslintrc.cjs<br>
-        - navigate to the src directory and delete everything accept `App.jsx` and `main.jsx`<br>
-        - for styles we will use `sass`(scss), this is a css extension. I suggest you look little bit into the documentation. Install `sass` **as a development dependency**. After that in `src` directory create folder `styles` with file `app.scss` in it.<br>
-        - edit `main.jsx` and set the correct path to the styles<br>
-        - edit `App.jsx` and remove all imports and JSX code
-
-    Also, I highly suggest you use [StandardJs](https://standardjs.com/) to save some time, have clean code and most importantly to write common JavaScript syntax.<br>
-    To do that install `standard` **as a development dependency** and that is it.
-
+- **[Exercise 1](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-1)** - Arrays and Objects
+- **[Exercise 2](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-2)** - Read React's documentation
+- **[Exercise 3](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-3)** - Project setup
+- **[Exercise 4](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4)** - Start writing first React code
