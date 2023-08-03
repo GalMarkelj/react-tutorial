@@ -57,11 +57,18 @@ const products = [
 
 /*
     TASKS:
-    
+
     1. Get an array of variation IDs that are not in stock
     2. How many total Jeans are in stock?
     3. Do all products have the attribute 'size'?
     4. Write a function that removes items from cart that don't exist among products and use it to save data from cart to a cleanCart variable
+      This is your cart from an old session:
+      const cart = [
+        { product: 'ts', variant: 'tsm', quantity: 2 },
+        { product: 'bc', variant: 'bcb', quantity: 10 },
+        { product: 'sh', variant: 'shl', quantity: 1 },
+        { product: 'trk', variant: 'trk42', quantity: 1 }
+      ]
     5. From items in `cleanCart` generate an array of product titles in this pattern:
         'T-shirt (M): 2× 17.99' (where M refers to attribute and 2x refers to quantity)
     6. Calculate the total price for `cleanCart` items
