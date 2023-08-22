@@ -1,5 +1,5 @@
 ## Start writing first React code
-- Right now you should have the project ready to go. The pages should be build according to the design I created.
+Right now you should have the project ready to go. The pages should be build according to the design I created.
 
 Navigate to [React router](https://reactrouter.com/en/main) and:
 1.  Under **Get started** section, read *Feature Overview*. I want you to get a filling what *React router* is doing and what are his main features.
