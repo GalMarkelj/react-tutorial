@@ -28,6 +28,7 @@ To start this tutorial you will need to have a code editor and preferably your o
 - **[Exercise 2](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-2)** - Read React's documentation
 - **[Exercise 3](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-3)** - Project setup
 - **[Exercise 4](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-4)** - Start writing first React code
+- **[Exercise 5](https://github.com/GalMarkelj/react-tutorial/blob/main/exercise-5)** - Requests
 
 ## Helpers
 - [MDN](https://developer.mozilla.org/en-US/)
